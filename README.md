@@ -349,7 +349,7 @@ int main ()  {
 - Também existe o ponteiro void ele  ideal quando não sabemos o tipo do ponteiro, depois por cast conseguimos alterar para o tipo que desejamos
 - Para fazer o desferemciamento do ponteiro usamos o *
 
-  ``` c++
+``` c++
   #include <iostream>
 
 int main()
