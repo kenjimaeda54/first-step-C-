@@ -236,11 +236,10 @@ std::string Account::GetHolder()
   
 - Aprendi conceito de prototipagem de funções, em C++ tudo e só copilado a partir do main, se desejar criar uma função neste arquivo pode usar o princípio de prototipagem de função
 - Você declara a função em cima da  main com seu tipo nome e argumentos se possuir e implementa abaixo da main
+   
+ ``` c++
   
-  
-  ``` c++
-  
-  #include <iostream>
+ #include <iostream>
 
 float calc(char type, float numberOne, float NumberTwo);
 
@@ -285,8 +284,7 @@ float calc(char type, float numberOne, float NumberTwo)
   
   
   
-  
-  ```
+```
   
   ##
   
@@ -296,7 +294,7 @@ float calc(char type, float numberOne, float NumberTwo)
 - Arquivos .h são buscados pelo próprio sistema operacional 
 -  Para usar esse arquivo preciso no cabeçalho chamar com aspas duplas include "Arquivo.h"
   
-  ``` c++
+``` c++
 #include <iostream>
 #include <locale.h>
 
@@ -337,7 +335,7 @@ int main ()  {
 }
   
   
-  ```
+```
   
   ##
     
@@ -391,7 +389,7 @@ int main()
 
   
   
-  ```
+```
   
   ## 
 - Alias x Ponteiros
@@ -402,7 +400,7 @@ int main()
 - Uma maneira segura de iniciar ponteiros nullos e uso do nullptr
   
   
-  ``` c++
+``` c++
   
   #include <iostream>
 
@@ -430,7 +428,7 @@ int main()
   
   
   
-  ```
+```
   
   
   ##
@@ -444,7 +442,7 @@ int main()
   
   
   
-  ``` c++
+``` c++
   #include <iostream>
 #include <string>
 #include <vector>
@@ -495,7 +493,7 @@ int main()
 
  
   
-  ```
+```
   
 ##
 
@@ -508,7 +506,7 @@ int main()
   
   
   
-  ``` c++
+``` c++
   
   #include <iostream>
 
@@ -552,7 +550,7 @@ int main()
 }
 
 
-  ```
+```
 
   ## 
   
@@ -561,8 +559,7 @@ int main()
 - E também mostrando como posso alterar diretamente os dados sem a referência com a palavra & quando a struct ou classe um ponteiro  
   
   
-  
- ``` c++ 
+``` c++ 
   #include <iomanip>
 #include <iostream>
 #include <string>
@@ -666,7 +663,7 @@ void ChangeStudent(Student* Student)
 };
 
   
-  ```
+```
 ##
   
 
