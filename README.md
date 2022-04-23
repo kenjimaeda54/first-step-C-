@@ -720,9 +720,8 @@ int main()
  - Contêiner vector
  - Melhoria dos array, não preciso indicar quantas valores eu tenho
  - Vector fornece recursos interessantes para adicionarmos, deletarmos, inserir elementos
--  [vector]( https://docs.microsoft.com/pt-br/cpp/standard-library/vector-class?view=msvc-170)
-- Alguns dos seus métodos precisa de um interador, neste caso eu passei o begin e end para esses métodos
- 
+-  Alguns dos seus métodos precisa de um interador, neste caso eu passei o begin e end para esses métodos
+-  [vector]( https://docs.microsoft.com/pt-br/cpp/standard-library/vector-class?view=msvc-170) 
  
  ``` c ++
 #include <iostream>
