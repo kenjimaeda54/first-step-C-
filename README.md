@@ -666,7 +666,58 @@ void ChangeStudent(Student* Student)
 ```
 ##
   
+- Container sao colecoes de C++ elas dao poder maior para manipulacao de dados
+- Primerio container e o interator, substitudo as vezes pela palavra auto
+- Interator e uma variavel que consegue percorrer nossa colecao , todas colecao tem acesso as funcoes advance,prev,begin,end,next
+- Prev atraves da anotacao de ponteiro consigo andar para tras de onde o interador esta apontando
+- Next avanco no local que o interador estiver apontado
+- Advance avanco as casas que o interador estiver apontando
+- Begin e end sao o inicio e o final da colecao
+- [interator](https://docs.microsoft.com/pt-br/cpp/standard-library/iterators?view=msvc-170) 
+ 
+ 
+ ``` c ++
+ 
+ #include <iostream>
+#include <vector>
 
+using namespace std;
+
+int main()
+{
+
+  vector<string> products { "mouse", "cartao de memoria", "caderno", "sapato" };
+  vector<string>::iterator it; 
+
+  for (it = products.begin(); it != products.end(); it++) {
+    cout << *it << " - "; // para imprimir o inteiror eu escrevo no formato de ponteiro *it
+  };
+
+
+  cout << endl;
+
+  it = products.begin();
+
+  cout << "Value  inteirator " << *it << endl; 
+
+  advance(it, 2);
+
+  cout << "Value inteirator before advance " << *it << endl; 
+  it = products.begin();
+
+  cout << "Next " << *next(it, 1) << endl; 
+  it = products.end() - 1;
+
+  cout << "Previous " << *prev(it, 1) << endl; 
+  return 0;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ ```
   
   
   
